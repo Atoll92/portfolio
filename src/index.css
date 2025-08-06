@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.yt {
+  transition: all 0.3s ease-in-out;
+}
+.yt:hover {
+  filter:invert(1);
+}
+@font-face {
+  font-family: 'PicNic';
+  src: url('../public/PicNic.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../public/BBBPoppinsTN-TextBold.otf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppinsb';
+  src: url('../public/BBBPoppinsTN-TextBlack.otf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
