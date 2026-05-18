@@ -1,6 +1,6 @@
 // src/Portfolio.js
 import React from 'react';
-import { useRef , useEffect, useState } from 'react';
+import { useRef , useEffect } from 'react';
 import { SpeedInsights } from '@vercel/speed-insights/react';
 import { Analytics } from "@vercel/analytics/react";
 import { Link } from 'react-router-dom';
@@ -409,7 +409,7 @@ const Portfolio = () => {
 </svg>
 </a>
 <a href="https://www.youtube.com/@arthurboval">
-    <img class="yt" style={{height: 50 }} src="/yt.png"/>
+    <img className="yt" style={{height: 50 }} src="/yt.png" alt="YouTube"/>
 </a>
                     <p className="footer-text">© 2024 Arthur Boval - All Rights Reserved</p>
                     <p className="footer-text"> 🕵🏽‍♂️ Known aliases : Hans Pfaal - Fils de Vénus - Atoll92 - Boval - Crabe - MGWX </p>
