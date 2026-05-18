@@ -15,6 +15,8 @@ const Portfolio = () => {
         { title: "En Pleine Lulu", year: 2019, author: "Marguerite Pellerin", details: "Court-métrage, Comédie dramatique, 7 min. Arte", img: "lulu.jpg", link: "https://www.unifrance.org/film/50357/en-pleine-lulu" },
     ];
     const performances = [
+        { title: "Vingt Pierres", location: "Théâtre de l'Odéon, Villa Médicis, La Criée, Librairie 7L", year: "2026-2027", author: "Laura Vazquez, Élise Blotière", img: "vingtpierres.png", link: "https://villamedici.it/programme/20-pierres/" },
+        { title: "Lecture-concert « De l'esprit et de sa capacité à se dilater »", location: "Le Cri du Port, Marseille", year: 2025, author: "Laura Vazquez, Arthur Boval", img: "lectureconcert.png", link: "https://bouillonsonore.com/15-fvrier" },
         { title: "Graine Lumière Cuire", location: "Montréal, Marseille, Nice", year: 2024, author: "Laura Vazquez, Élise Blotière", img: "graine.png", link: "https://usine-c.com/spectacle/actoral-2024" },
         { title: "Issue de secours", location: "Beaux Arts de Paris", year: 2023, author: "Loïs Szymczak", img: "issue.jpg", link: "https://youtu.be/FpmuA3h_rJM?si=fZ1P0oYQjPZCUoBp" },
         { title: "    Songs for Space - Blue Origin NS-18", location: "Espace, apogée de 106km", year: 2021, author: "Dr Chris Boshuizen", img: "space.jpg", link: "https://soundcloud.com/drchrispy/sets/songs-for-space" },
@@ -58,6 +60,7 @@ const Portfolio = () => {
     ];
 
     const podcasts = [
+        { title: "Invisibles", date: "2026", details: "Charlie Delboy, Blast", img:"invisibles.webp" , link: "https://www.blast-info.fr/articles/2026/vss-au-travail-mon-corps-est-devenu-une-arme-contre-moi-m3g-VENuQyC9uZPw5n-doQ"},
         { title: "Paroles de Vignes", date: "2022", details: "Bettane et Desseauve, Spotify", img:"vigne.jpg" , link: "https://open.spotify.com/show/2C2WpI97FK4q48yFt7cpMi?si=ce199d31c2fa4e99"},
         { title: "L'éruption", date: "2021", details: "Pilote, fiction historique, Spotify", img:"pele.jpg", link: "https://link-to-espoir.com" },
         { title: "Crystal Craft", date: "2017", details: "Pilote, fiction horreur, Audible", img:"audible-2.png", link: "https://link-to-espoir.com" },
