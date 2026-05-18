@@ -15,7 +15,7 @@ const Portfolio = () => {
         { title: "En Pleine Lulu", year: 2019, author: "Marguerite Pellerin", details: "Court-métrage, Comédie dramatique, 7 min. Arte", img: "lulu.jpg", link: "https://www.unifrance.org/film/50357/en-pleine-lulu" },
     ];
     const performances = [
-        { title: "Vingt Pierres", location: "Théâtre de l'Odéon, Villa Médicis, La Criée, Librairie 7L", year: "2026-2027", author: "Laura Vazquez, Élise Blotière", img: "vingtpierres.png", link: "https://villamedici.it/programme/20-pierres/" },
+        { title: "Vingt Pierres", location: "Théâtre de l'Odéon, Villa Médicis, La Criée, Librairie 7L", year: 2026, author: "Laura Vazquez, Élise Blotière", img: "vingtpierres.png", link: "https://villamedici.it/programme/20-pierres/" },
         { title: "Lecture-concert « De l'esprit et de sa capacité à se dilater »", location: "Le Cri du Port, Marseille", year: 2025, author: "Laura Vazquez, Arthur Boval", img: "lectureconcert.png", link: "https://bouillonsonore.com/15-fvrier" },
         { title: "Graine Lumière Cuire", location: "Montréal, Marseille, Nice", year: 2024, author: "Laura Vazquez, Élise Blotière", img: "graine.png", link: "https://usine-c.com/spectacle/actoral-2024" },
         { title: "Issue de secours", location: "Beaux Arts de Paris", year: 2023, author: "Loïs Szymczak", img: "issue.jpg", link: "https://youtu.be/FpmuA3h_rJM?si=fZ1P0oYQjPZCUoBp" },

@@ -9,11 +9,10 @@ const ActusSection = () => {
         <div className="flex-grow border-t border-gray-300" />
       </div>
 
-      {/* Latest Release */}
+      {/* Latest Release - hidden for now
       <div className="bg-white rounded-lg shadow-md p-6 space-y-6">
         <h3 className="text-xl font-semibold">Dernière sortie</h3>
         <div className="flex flex-col md:flex-row gap-6">
-          {/* Video */}
           <div className="flex-1">
             <div className="relative w-full pb-[56.25%]">
             <iframe
@@ -26,8 +25,6 @@ const ActusSection = () => {
               />
             </div>
           </div>
-
-          {/* Description */}
           <div className="flex-1 space-y-4">
             <h4 className="text-2xl font-bold text-center">Extinction Song</h4>
             <p className="text-gray-700">
@@ -45,6 +42,7 @@ const ActusSection = () => {
           </div>
         </div>
       </div>
+      */}
 
       {/* Next Event */}
       <div className="bg-white rounded-lg shadow-md p-6 space-y-4">
