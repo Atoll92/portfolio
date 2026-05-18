@@ -44,7 +44,7 @@ const ActusSection = () => {
       </div>
       */}
 
-      {/* Next Event */}
+      {/* Prochaine date - Bouillon Sonore */}
       <div className="bg-white rounded-lg shadow-md p-6 space-y-4">
         <h3 className="text-xl font-semibold">Prochaine date</h3>
         <div className="bg-white border border-gray-100 rounded-lg shadow-sm p-6">
@@ -52,53 +52,87 @@ const ActusSection = () => {
             {/* Flyer Image */}
             <div className="flex-1 flex justify-center">
               <div className="relative w-full max-w-md">
-                <img 
-                  src="/fly.jpg" 
-                  alt="Flyer de l'événement" 
+                <img
+                  src="/bouillonsonore.jpg"
+                  alt="Bouillon Sonore Festival"
                   className="w-full h-auto rounded-md shadow-md object-cover"
                 />
-                {/* Optional overlay for image credits if needed */}
-               
               </div>
             </div>
 
             {/* Event Details */}
             <div className="flex-1 flex flex-col justify-center space-y-4">
-              {/* Event Title */}
+              <div className="font-bold text-xl text-gray-800">
+                Bouillon Sonore Festival
+              </div>
+
+              <div className="flex flex-col gap-3 text-gray-700 font-medium">
+                <div className="flex items-center gap-2">
+                  <span className="text-gray-500">📅</span>
+                  <span>15 février 2026</span>
+                </div>
+
+                <div className="flex items-center gap-2">
+                  <span className="text-gray-500">📍</span>
+                  <span>Le Cri du Port, 8 rue du Pasteur Heuzé, Marseille</span>
+                </div>
+              </div>
+
+              <div className="mt-4">
+                <a
+                  href="https://bouillonsonore.com/15-fvrier"
+                  className="inline-block bg-gray-800 hover:bg-gray-700 text-white font-medium py-2 px-4 rounded-md transition-colors"
+                >
+                  Plus d'informations
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Dates récentes */}
+      <div className="bg-white rounded-lg shadow-md p-6 space-y-4">
+        <h3 className="text-xl font-semibold">Dates récentes</h3>
+        <div className="bg-white border border-gray-100 rounded-lg shadow-sm p-6">
+          <div className="flex flex-col md:flex-row gap-6">
+            <div className="flex-1 flex justify-center">
+              <div className="relative w-full max-w-md">
+                <img
+                  src="/fly.jpg"
+                  alt="Graine Lumière Cuire - FRAC SUD"
+                  className="w-full h-auto rounded-md shadow-md object-cover"
+                />
+              </div>
+            </div>
+
+            <div className="flex-1 flex flex-col justify-center space-y-4">
               <div className="font-bold text-xl text-gray-800">
                 Lecture performée "Graine Lumière Cuire"
               </div>
 
-              {/* Date and Location */}
               <div className="flex flex-col gap-3 text-gray-700 font-medium">
-                {/* Date */}
                 <div className="flex items-center gap-2">
                   <span className="text-gray-500">📅</span>
-                  <span>03/05</span>
+                  <span>03/05/2025</span>
                 </div>
-                
-                {/* Time - Added */}
                 <div className="flex items-center gap-2">
                   <span className="text-gray-500">🕒</span>
                   <span>17h00</span>
                 </div>
-
-                {/* Location */}
                 <div className="flex items-center gap-2">
                   <span className="text-gray-500">📍</span>
                   <span>FRAC SUD - Marseille</span>
                 </div>
               </div>
 
-              {/* Brief Description - Added */}
               <p className="text-gray-600 mt-3">
-              Graine Lumière Cuire est une performance vidéo-lecture créée par Laura Vazquez et Élise Blotière à partir du recueil de textes poétiques éponyme, évoquant la terre et la nature, paru en novembre 2024 aux éditions sun/sun. Au Frac Sud, la performance sera accompagnée d’une proposition musicale live d’Arthur Boval.
+              Graine Lumière Cuire est une performance vidéo-lecture créée par Laura Vazquez et Élise Blotière à partir du recueil de textes poétiques éponyme, évoquant la terre et la nature, paru en novembre 2024 aux éditions sun/sun. Au Frac Sud, la performance sera accompagnée d'une proposition musicale live d'Arthur Boval.
               </p>
 
-              {/* CTA Button - Added */}
               <div className="mt-4">
-                <a 
-                  href="https://fracsud.org/Lecture-performee-avec-Laura-Vazquez-Elise-Blotiere" 
+                <a
+                  href="https://fracsud.org/Lecture-performee-avec-Laura-Vazquez-Elise-Blotiere"
                   className="inline-block bg-gray-800 hover:bg-gray-700 text-white font-medium py-2 px-4 rounded-md transition-colors"
                 >
                   Plus d'informations
