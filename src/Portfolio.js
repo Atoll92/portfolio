@@ -359,6 +359,26 @@ const Portfolio = () => {
                 
                 </ul>
             </section>
+            <section className="category">
+                <h2>Dates récentes</h2>
+                <hr className="separator" />
+                <ul>
+                    <li className="media-item" onClick={() => handleItemClick('https://bouillonsonore.com/15-fvrier')}>
+                        <div className="media-info">
+                            <div className="media-title"><strong>Bouillon Sonore Festival</strong></div>
+                            <p>Le Cri du Port, Marseille - 15/02/2026</p>
+                        </div>
+                        <div className="arrow-sign">{'->'}</div>
+                    </li>
+                    <li className="media-item" onClick={() => handleItemClick('https://fracsud.org/Lecture-performee-avec-Laura-Vazquez-Elise-Blotiere')}>
+                        <div className="media-info">
+                            <div className="media-title"><strong>Lecture performée "Graine Lumière Cuire"</strong></div>
+                            <p>FRAC SUD, Marseille - 03/05/2025</p>
+                        </div>
+                        <div className="arrow-sign">{'->'}</div>
+                    </li>
+                </ul>
+            </section>
             <footer className="footer">
                 <div className="footer-content">
                     <a href="https://soundcloud.com/atoll92">
