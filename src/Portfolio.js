@@ -364,6 +364,7 @@ const Portfolio = () => {
                 <hr className="separator" />
                 <ul>
                     <li className="media-item" onClick={() => handleItemClick('https://bouillonsonore.com/15-fvrier')}>
+                        <img src="bouillonsonore.jpg" alt="Bouillon Sonore Festival" className="media-thumbnail" />
                         <div className="media-info">
                             <div className="media-title"><strong>Bouillon Sonore Festival</strong></div>
                             <p>Le Cri du Port, Marseille - 15/02/2026</p>
@@ -371,6 +372,7 @@ const Portfolio = () => {
                         <div className="arrow-sign">{'->'}</div>
                     </li>
                     <li className="media-item" onClick={() => handleItemClick('https://fracsud.org/Lecture-performee-avec-Laura-Vazquez-Elise-Blotiere')}>
+                        <img src="fly.jpg" alt="Graine Lumière Cuire" className="media-thumbnail" />
                         <div className="media-info">
                             <div className="media-title"><strong>Lecture performée "Graine Lumière Cuire"</strong></div>
                             <p>FRAC SUD, Marseille - 03/05/2025</p>

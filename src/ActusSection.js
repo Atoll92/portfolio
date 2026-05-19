@@ -63,8 +63,15 @@ const ActusSection = () => {
             {/* Event Details */}
             <div className="flex-1 flex flex-col justify-center space-y-4">
               <div className="font-bold text-xl text-gray-800">
-                Bouillon Sonore Festival
+                De l'esprit et de sa capacité de se dilater
               </div>
+
+              <p className="text-gray-700">
+                Laura Vazquez, lecture et Arthur Boval, musique électronique
+              </p>
+              <p className="text-gray-600">
+                Une lecture-concert dans laquelle le son et les phrases vivent ensemble.
+              </p>
 
               <div className="flex flex-col gap-3 text-gray-700 font-medium">
                 <div className="flex items-center gap-2">
